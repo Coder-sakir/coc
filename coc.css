@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    position: fixed;
+    height: 75px;
+    width: 85%;
+    background-color:rgb(0, 0, 0);
+    margin-left: 110px;
+    display: flex;
+    z-index: 5;
+}
+
+.nav .img{
+    margin: 15px;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.nav1 ul {
+    height: 74px;
+    display: flex;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    gap: 20px;
+    list-style-type: none;
+}
+.nav1 ul li{
+    width: auto;
+    margin-left: 30px;
+    padding-top: 29px;
+}
+.nav1 a{
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    color:gray;
+} 
+.nav1 ul li a:visited{
+    color: white;
+}
+.nav1 ul li .games{
+    margin-left: -114PX;
+    padding-left: 10PX;
+    width: 99.2%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    /* display: none; */
+    transition: .6s;
+    opacity: 0;
+    transform: translateY(-70px);
+    z-index: -1;
+} 
+.block:hover .games{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.img1{
+    width: 100%;
+    height: 600px;
+    background-image: url(/PROJECTS/coc/img/1.jpg);
+    background-size: cover;
+}
+.info{
+    width: 100%;
+    height: 500px;
+    /* background-color: yellow; */
+    margin-top: 70px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* background-color: aquamarine; */
+    /* position: relative; */
+    left: -300px;
+
+}
+.left img{
+        position: relative;
+        left: -300px;
+}
+.right{
+    width: 50%;
+    height: 500px;
+    /* background-color: rgb(0, 26, 255); */
+}
+.right .content{
+    width: 600px;
+    margin-top: 100px;
+    /* background-color: aqua; */
+}
+
+.right h1{
+    font-size: 30px;
+}
+.right p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.right a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+.news{
+    width: 100%;
+    height: 500px;
+    height: 600px;
+    /* background-color: rgb(145, 255, 0); */
+}
+.news1{
+   margin-left: 100px;
+   width: 85%;
+    height: 130px;
+   /* background-color: aliceblue; */
+}
+.news h1{
+    padding-left: 570px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.news2{
+    display: flex;
+    gap: 30px;
+    margin-left: 120px;
+}
+.news2 .newsleft{
+    width: 570px;
+    height: 370px;
+    line-height: 30px;
+    /* background-color: aqua; */
+}
+.news2 .newsleft a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.news2 .newsright{
+    width: 570px;
+    height: 370px;
+    line-height: 30px;
+    gap: 30px;
+    /* background-color: rgb(255, 0, 111); */
+}
+.news2 p{
+    font-size: 14px;
+    margin-left: 220px;
+    color: palevioletred;
+    text-transform:uppercase;
+    font-weight: 750;
+}
+.news2 .newsright a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+    margin-left: 150px;
+}
+.news button{
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border:none;
+    border-radius: 8px;
+    margin-left: 42%;
+    margin-top: 3%;
+    color: white;
+    background-color: rgb(30, 141, 250);
+}
+.more{
+    width: 100%;
+    height: 500px;
+    background-image: url(/PROJECTS/coc/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: -210px;
+    background-size: 130% 100%;
+    display: flex;
+}
+.more .moreleft{
+    width: 40.5%;
+    color: white;
+    margin-left: 130px;
+    margin-top: 145px;
+
+}
+.more .moreleft h6{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 200;
+    position: relative;
+    top: 15px;
+}
+.more .moreleft a{
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 30px;
+}
+.more .moreright{
+    width:55%;
+    overflow: hidden;
+}
+.more .moreright img{
+    margin-top: 55px;
+    margin-left: 290px;
+}
+.last{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    background-image: linear-gradient(blue,#2882EB);
+}
+.last .left{
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.last .left h1{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.last .left button{
+    width: 180px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight:600;
+}
+.last .right{
+    height: 100%;
+}
+.last .right img{
+    position: relative;
+    top: -52.5px;
+    left: 55px;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.footer .footercontent{
+    width: 70%;
+    height: 16%;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 170px;
+}
+.footercontent .left{
+    width: 75%;
+    font-size: 14px;
+    height: 90px;
+    line-height: 30px;
+    border-bottom: 1px solid gray;
+}
+.footer .left a {
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    text-decoration-line: none;
+}
+.footercontent .right{
+    border-bottom: 1px solid gray;
+    height: 90px;
+}
+.footer .footernav{
+    width: 75%;
+    height: 8%;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 170px;
+}
+.footer .footernav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.footerend{
+    display: flex;
+}
+.footerend .endleft{
+    width: 66.25%;
+    color: gray;
+    margin-left: 170px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.footerend .endright{
+    margin-top: 57px;
+}
+
+
+
